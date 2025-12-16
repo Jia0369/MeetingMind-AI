@@ -1,0 +1,25 @@
+# --- General Python/Virtual Environment ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+
+# --- Large Datasets & Audio (Exclude Everything in data folder) ---
+data/
+
+# --- Secrets (Critical: Exclude files containing keys) ---
+# Assuming you move your keys to a separate .env or secret config file
+secrets.py
+*.env
+
+# --- Specific Log Files / Streamlit Temp Files ---
+temp_input.wav
+*.log
+
+# --- Specific Windows/IDE Files ---
+*.bak
+*.swp
+
+.spyproject/	
+fyp_test_files/
